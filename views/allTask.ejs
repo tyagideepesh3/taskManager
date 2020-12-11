@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.5.2/dist/css/bootstrap.min.css" integrity="sha384-qQEE8jdKJvtljxvtgWREfDOl721Sa1Qs8a1huL0PjJo3duiJ2wXnwTIRnbd/cTjY" crossorigin="anonymous">
+    <nav class="navbar navbar-light bg-light">
+      <span class="navbar-brand mb-0 h1 text-primary font-weight-bolder">TASK APP</span>
+    </nav>
+    <title>Task App</title>
+  </head>
+  <body>
+    <div class="container">
+        <span class="text-center text-primary my-3"><h1 class="my-2">FIND YOUR TASK</h1></span>
+        <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control" name="name" id="name" placeholder="Enter Your Name" id="name">
+              </div>
+              <div class="form-group col-md-6">
+                <button type="button" class="btn btn-primary text-center" id="find">FIND</button>
+              </div>
+            </div>
+            
+            
+            
+          </form>
+
+      <div id="tables">
+          <!-- User Who Entered the Data <%= userName %>
+          Task You Entered <%= task %> -->
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">User Name</th>
+                <th scope="col">Task</th>
+              </tr>
+            </thead>
+            <tbody id="values">
+              
+              
+            </tbody>
+          </table>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@coding-blocks/bootstrap@4.5.2/dist/js/bootstrap.min.js" integrity="sha384-5kiNX2pRMEoJOeg8N1XzHzWAotDv8A4fZW6cFGvsDgSZmMuECwtOeZ1ta0eO7DBD" crossorigin="anonymous"></script>
+    <!-- <script src="./index.js"></script> -->
+    <script src="alltask.js"></script>
+  </body>
+</html>
